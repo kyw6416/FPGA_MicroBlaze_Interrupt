@@ -1,0 +1,20 @@
+Nothing to build in platform 'design_Timer_Interrupt_wrapper'
+
+13:56:05 **** Incremental Build of configuration Debug for project interrupt_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/export/design_Timer_Interrupt_wrapper/sw/design_Timer_Interrupt_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: interrupt_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/export/design_Timer_Interrupt_wrapper/sw/design_Timer_Interrupt_wrapper/domain_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "interrupt_app.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: interrupt_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size interrupt_app.elf  |tee "interrupt_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78448	   1764	   3372	  83584	  14680	interrupt_app.elf
+'Finished building: interrupt_app.elf.size'
+' '

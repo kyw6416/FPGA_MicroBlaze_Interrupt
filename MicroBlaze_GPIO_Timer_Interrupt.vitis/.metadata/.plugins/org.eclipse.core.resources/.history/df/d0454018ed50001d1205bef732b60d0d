@@ -1,0 +1,90 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xgpio.h"
+#include "sleep.h"
+#include "xil_exception.h"
+#include "xintc.h"
+
+#define CHANNEL_1 				1
+#define GPIO_BTN_DEVICE_ID 		XPAR_GPIO_1_DEVICE_ID
+#define BTN_INT_MSK 	   		XGPIO_IR_CH1_MASK
+
+#define GPIO_LED_DEVICE_ID 		XPAR_GPIO_0_DEVICE_ID
+
+#define INTC_DEVICE_ID 			XPAR_INTC_0_DEVICE_ID
+#define INTC_BTN_INT_VEC_ID 	XPAR_INTC_0_GPIO_1_VEC_ID
+
+void GpioHandler(void *callbackRef);
+
+XGpio Gpio_Led;
+XGpio Gpio_Button;
+XGpio Intc;
+
+int main()
+{
+    init_platform();
+
+    // led 초기화 페릴페럴에 대한 초기화
+    XGpio_Initialize(&Gpio_Led, GPIO_LED_DEVICE_ID);
+    XGpio_SetDataDirection(&Gpio_Led, CHANNEL_1, 0x00); //출력
+
+    // button 초기화
+    XGpio_Initialize(&Gpio_Button, GPIO_BTN_DEVICE_ID);
+    XGpio_SetDataDirection(&Gpio_Button, CHANNEL_1, 0x0f); //입력
+
+    // 인터럽트 초기화
+    XIntc_Initialize(&Intc, INTC_DEVICE_ID);	// Interrupt Controller Device 초기화
+    XIntc_Connect(&Intc, INTC_BTN_INT_VEC_ID, (Xil_ExceptionHandler)GpioHandler, &Gpio_Button); // Interrupt Controller의 Vector Table에 Jump할 함수 할당
+
+    // 인터럽트 컨트롤러에 있는 벡터를 실행
+    XIntc_Enable(&Intc, INTC_BTN_INT_VEC_ID);
+
+    // Start the interrupt controller such that interrupts are recognized
+    // and handled by the processor
+    XIntc_Start(&Intc, XIN_REAL_MODE);
+
+    // GPIO에서 개별로 interrupt Enable
+    XGpio_InterruptEnable(&Gpio_Button, CHANNEL_1);
+    XGpio_InterruptGlobalEnable(&Gpio_Button);
+
+    // Exception Setup
+    Xil_ExceptionInit();
+    Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XIntc_InterruptHandler , &Intc);
+    Xil_ExceptionEnable();
+    // 위에는 초기 설정
+
+    while (1)
+    {
+    	XGpio_DiscreteWrite(&Gpio_Led, CHANNEL_1, 0x00);
+    	usleep(500000);
+    	XGpio_DiscreteWrite(&Gpio_Led, CHANNEL_1, 0xff);
+    	usleep(500000);
+    }
+
+
+
+    cleanup_platform();
+    return 0;
+}
+
+void GpioHandler(void *callbackRef)
+{
+	XGpio *pGpio = (XGpio *)callbackRef;
+
+	// 버튼설정
+	if ((XGpio_DiscreteRead(pGpio, CHANNEL_1) &0x01 )){
+		printf("PUSHED BUTTON_1!\n");
+	}
+	else if ((XGpio_DiscreteRead(pGpio, CHANNEL_1) &0x02 )){
+		printf("PUSHED BUTTON_2!\n");
+	}
+	else if ((XGpio_DiscreteRead(pGpio, CHANNEL_1) &0x04 )){
+			printf("PUSHED BUTTON_3!\n");
+		}
+	else if ((XGpio_DiscreteRead(pGpio, CHANNEL_1) &0x08 )){
+			printf("PUSHED BUTTON_4!\n");
+		}
+	XGpio_InterruptClear(pGpio, CHANNEL_1);
+}

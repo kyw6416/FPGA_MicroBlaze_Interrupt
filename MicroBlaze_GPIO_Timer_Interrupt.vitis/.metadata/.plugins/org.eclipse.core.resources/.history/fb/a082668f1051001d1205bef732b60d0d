@@ -1,0 +1,137 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xgpio.h"
+#include "sleep.h"
+#include "xil_exception.h"
+#include "xintc.h"
+#include "xtmrctr.h"
+
+#define CHANNEL_1 				1
+#define GPIO_BTN_DEVICE_ID 		XPAR_GPIO_1_DEVICE_ID
+#define BTN_INT_MSK 	   		XGPIO_IR_CH1_MASK
+
+#define GPIO_LED_DEVICE_ID 		XPAR_GPIO_0_DEVICE_ID
+
+#define INTC_DEVICE_ID 			XPAR_INTC_0_DEVICE_ID
+#define INTC_BTN_INT_VEC_ID 	XPAR_INTC_0_GPIO_1_VEC_ID
+
+// 타이머 인터럽트
+#define TMRCTR_DEVICE_ID 		XPAR_TMRCTR_0_DEVICE_ID
+#define TMRCTR_INT_VEC_ID 		XPAR_INTC_0_TMRCTR_0_VEC_ID
+#define TIMER_CNTR_0			0
+
+uint32_t resetvalue = 0xffffffff - 100000000; 	// 1sec
+// uint32_t resetvalue = 0xffffffff - 100000; 	// 1msec
+// uint32_t resetvalue = 0xffffffff - 1000000; 	// 10msec
+
+void TimerCounterHandler (void *callbackRef, uint8_t TmrctrNumber);		// 인터럽트 발생시 실행하는 함수
+void GpioHandler(void *callbackRef);									// 인터럽트 발생시 실행하는 함수
+void Led_Init();
+void Btn_Init();
+void Intr_Init();
+
+XGpio Gpio_Led;
+XGpio Gpio_Button;
+XIntc Intc;
+XTmrCtr TimerCounterInst;
+
+int main()
+{
+    init_platform();
+
+    Led_Init();
+    Btn_Init();
+
+
+    XTmrCtr_Initialize(&TimerCounterInst, TMRCTR_DEVICE_ID);
+    XTmrCtr_SelfTest(&TimerCounterInst, TIMER_CNTR_0);			// timer 내부에 timer가 2개 있어서 선택
+
+    Intr_Init();
+    //인터럽트 컨드롤러에 연결
+    XIntc_Connect(&Intc, TMRCTR_INT_VEC_ID, (XInterruptHandler)XTmrCtr_InterruptHandler, &TimerCounterInst);	// 벡터 테이블 연결
+    XIntc_Enable(&Intc, TMRCTR_INT_VEC_ID);
+    XTmrCtr_SetHandler(&TimerCounterInst, TimerCounterHandler, &TimerCounterInst);								// 함수이름 인스턴스 값 넣어주기
+    XTmrCtr_SetOptions(&TimerCounterInst, TIMER_CNTR_0, XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION);			// 인터럽트가 걸리면 리로드하겠다
+    XTmrCtr_SetResetValue(&TimerCounterInst, TIMER_CNTR_0, resetvalue);
+    XTmrCtr_Start(&TimerCounterInst, TIMER_CNTR_0);
+
+    while (1)
+    {
+    	XGpio_DiscreteWrite(&Gpio_Led, CHANNEL_1, 0x00);
+    	usleep(500000);
+    	XGpio_DiscreteWrite(&Gpio_Led, CHANNEL_1, 0xff);
+    	usleep(500000);
+    }
+
+    cleanup_platform();
+    return 0;
+}
+
+void GpioHandler(void *callbackRef)  // 자료형을 정하지 않고 매개변수를 받는다.
+{
+	XGpio *pGpio = (XGpio *)callbackRef;
+
+	// 버튼설정
+	if ((XGpio_DiscreteRead(pGpio, CHANNEL_1) &0x01 )){
+		print("PUSHED BUTTON_1!\n");
+	}
+	else if ((XGpio_DiscreteRead(pGpio, CHANNEL_1) &0x02 )){
+		print("PUSHED BUTTON_2!\n");
+	}
+	else if ((XGpio_DiscreteRead(pGpio, CHANNEL_1) &0x04 )){
+		print("PUSHED BUTTON_3!\n");
+	}
+	else if ((XGpio_DiscreteRead(pGpio, CHANNEL_1) &0x08 )){
+		print("PUSHED BUTTON_4!\n");
+	}
+
+	XGpio_InterruptClear(pGpio, CHANNEL_1);
+}
+
+void Led_Init()
+{
+	// led 초기화 페릴페럴에 대한 초기화
+	    XGpio_Initialize(&Gpio_Led, GPIO_LED_DEVICE_ID);
+	    XGpio_SetDataDirection(&Gpio_Led, CHANNEL_1, 0x00); //출력
+}
+
+void Btn_Init()
+{
+	// button 초기화
+	    XGpio_Initialize(&Gpio_Button, GPIO_BTN_DEVICE_ID);
+	    XGpio_SetDataDirection(&Gpio_Button, CHANNEL_1, 0x0f); //입력
+}
+
+void Intr_Init()
+{
+	   // 인터럽트 초기화
+	    XIntc_Initialize(&Intc, INTC_DEVICE_ID);	// Interrupt Controller Device 초기화
+	    XIntc_Connect(&Intc, INTC_BTN_INT_VEC_ID, (Xil_ExceptionHandler)GpioHandler, &Gpio_Button); // Interrupt Controller의 Vector Table에 Jump할 함수 할당
+	    // 인터럽트 컨트롤러가 관리 인터럽트 컨트롤러에 벡터 정보도 넣어주고 주소, 주소에 대한 매개변수
+	    // GpioHandler gpio_btn에 모두 감시하고 인터럽트가 들어간다
+
+
+	    // 인터럽트 컨트롤러에 있는 벡터를 실행
+	    XIntc_Enable(&Intc, INTC_BTN_INT_VEC_ID);
+
+	    // Start the interrupt controller such that interrupts are recognized
+	    // and handled by the processor
+	    XIntc_Start(&Intc, XIN_REAL_MODE);
+
+	    // GPIO에서 개별로 interrupt Enable
+	    XGpio_InterruptEnable(&Gpio_Button, CHANNEL_1);
+	    XGpio_InterruptGlobalEnable(&Gpio_Button);
+
+	    // Exception Setup
+	    Xil_ExceptionInit();
+	    Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XIntc_InterruptHandler , &Intc);
+	    Xil_ExceptionEnable();
+}
+
+void TimerCounterHandler (void *callbackRef, uint8_t TmrctrNumber)
+{
+	static int counter = 0;
+	printf("timer/ counter interrupt : %d\n", counter++);	// 인터럽트가 걸리면 1씩 증가
+}

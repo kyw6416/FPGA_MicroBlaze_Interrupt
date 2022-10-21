@@ -1,0 +1,1023 @@
+TRACE::2022-10-21.11:15:08::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:08::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:08::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:12::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-10-21.11:15:12::SCWPlatform::Opened new HwDB with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:12::SCWWriter::formatted JSON is {
+	"platformName":	"design_Timer_Interrupt_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_Timer_Interrupt_wrapper",
+	"platHandOff":	"D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/design_Timer_Interrupt_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_Timer_Interrupt_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-10-21.11:15:12::SCWWriter::formatted JSON is {
+	"platformName":	"design_Timer_Interrupt_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_Timer_Interrupt_wrapper",
+	"platHandOff":	"D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/design_Timer_Interrupt_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_Timer_Interrupt_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_Timer_Interrupt_wrapper",
+	"systems":	[{
+			"systemName":	"design_Timer_Interrupt_wrapper",
+			"systemDesc":	"design_Timer_Interrupt_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_Timer_Interrupt_wrapper"
+		}]
+}
+TRACE::2022-10-21.11:15:12::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-10-21.11:15:12::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-10-21.11:15:12::SCWWriter::formatted JSON is {
+	"platformName":	"design_Timer_Interrupt_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_Timer_Interrupt_wrapper",
+	"platHandOff":	"D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/design_Timer_Interrupt_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_Timer_Interrupt_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_Timer_Interrupt_wrapper",
+	"systems":	[{
+			"systemName":	"design_Timer_Interrupt_wrapper",
+			"systemDesc":	"design_Timer_Interrupt_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_Timer_Interrupt_wrapper"
+		}]
+}
+TRACE::2022-10-21.11:15:12::SCWWriter::formatted JSON is {
+	"platformName":	"design_Timer_Interrupt_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_Timer_Interrupt_wrapper",
+	"platHandOff":	"D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/design_Timer_Interrupt_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_Timer_Interrupt_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_Timer_Interrupt_wrapper",
+	"systems":	[{
+			"systemName":	"design_Timer_Interrupt_wrapper",
+			"systemDesc":	"design_Timer_Interrupt_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_Timer_Interrupt_wrapper"
+		}]
+}
+TRACE::2022-10-21.11:15:12::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:12::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:12::SCWDomain::checking for install qemu data   : 
+TRACE::2022-10-21.11:15:12::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:12::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:12::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:12::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:12::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:12::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:12::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:12::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:12::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-10-21.11:15:12::SCWMssOS::No sw design opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:12::SCWMssOS::mss does not exists at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:12::SCWMssOS::Creating sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:12::SCWMssOS::Adding the swdes entry, created swdb D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:12::SCWMssOS::updating the scw layer changes to swdes at   D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:12::SCWMssOS::Writing mss at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:12::SCWMssOS::Completed writing the mss file at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp
+TRACE::2022-10-21.11:15:12::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-10-21.11:15:12::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-10-21.11:15:12::SCWMssOS::Completed writing the mss file at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp
+TRACE::2022-10-21.11:15:12::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-10-21.11:15:17::SCWMssOS::Saving the mss changes D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-21.11:15:17::SCWMssOS::Running validate of swdbs.
+KEYINFO::2022-10-21.11:15:17::SCWMssOS::Could not open the swdb for D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+KEYINFO::2022-10-21.11:15:17::SCWMssOS::Could not open the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss is not found
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-10-21.11:15:17::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-10-21.11:15:17::SCWMssOS::Writing the mss file completed D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::Commit changes completed.
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWWriter::formatted JSON is {
+	"platformName":	"design_Timer_Interrupt_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_Timer_Interrupt_wrapper",
+	"platHandOff":	"D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/design_Timer_Interrupt_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_Timer_Interrupt_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_Timer_Interrupt_wrapper",
+	"systems":	[{
+			"systemName":	"design_Timer_Interrupt_wrapper",
+			"systemDesc":	"design_Timer_Interrupt_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_Timer_Interrupt_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"69753a3abc3aeee63e33c9dcfede04d6",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-10-21.11:15:17::SCWPlatform::Started generating the artifacts platform design_Timer_Interrupt_wrapper
+TRACE::2022-10-21.11:15:17::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-21.11:15:17::SCWPlatform::Started generating the artifacts for system configuration design_Timer_Interrupt_wrapper
+LOG::2022-10-21.11:15:17::SCWSystem::Checking the domain domain_microblaze_0
+LOG::2022-10-21.11:15:17::SCWSystem::Not a boot domain 
+LOG::2022-10-21.11:15:17::SCWSystem::Started Processing the domain domain_microblaze_0
+TRACE::2022-10-21.11:15:17::SCWDomain::Generating domain artifcats
+TRACE::2022-10-21.11:15:17::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-21.11:15:17::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::Completed writing the mss file at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp
+TRACE::2022-10-21.11:15:17::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-21.11:15:17::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-21.11:15:17::SCWDomain::Skipping the build for domain :  domain_microblaze_0
+TRACE::2022-10-21.11:15:17::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-10-21.11:15:17::SCWMssOS::Copying to export directory.
+TRACE::2022-10-21.11:15:17::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-21.11:15:17::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-10-21.11:15:17::SCWSystem::Completed Processing the domain domain_microblaze_0
+LOG::2022-10-21.11:15:17::SCWSystem::Completed Processing the sysconfig design_Timer_Interrupt_wrapper
+LOG::2022-10-21.11:15:17::SCWPlatform::Completed generating the artifacts for system configuration design_Timer_Interrupt_wrapper
+TRACE::2022-10-21.11:15:17::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-21.11:15:17::SCWSystem::Writing the bif file for system config design_Timer_Interrupt_wrapper
+TRACE::2022-10-21.11:15:17::SCWSystem::dir created 
+TRACE::2022-10-21.11:15:17::SCWSystem::Writing the bif 
+TRACE::2022-10-21.11:15:17::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-21.11:15:17::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-21.11:15:17::SCWPlatform::Completed generating the platform
+TRACE::2022-10-21.11:15:17::SCWMssOS::Saving the mss changes D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-21.11:15:17::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-21.11:15:17::SCWMssOS::Commit changes completed.
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWWriter::formatted JSON is {
+	"platformName":	"design_Timer_Interrupt_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_Timer_Interrupt_wrapper",
+	"platHandOff":	"D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/design_Timer_Interrupt_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_Timer_Interrupt_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_Timer_Interrupt_wrapper",
+	"systems":	[{
+			"systemName":	"design_Timer_Interrupt_wrapper",
+			"systemDesc":	"design_Timer_Interrupt_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_Timer_Interrupt_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"69753a3abc3aeee63e33c9dcfede04d6",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-21.11:15:17::SCWPlatform::updated the xpfm file.
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::Saving the mss changes D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-21.11:15:17::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-21.11:15:17::SCWMssOS::Commit changes completed.
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWWriter::formatted JSON is {
+	"platformName":	"design_Timer_Interrupt_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_Timer_Interrupt_wrapper",
+	"platHandOff":	"D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/design_Timer_Interrupt_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_Timer_Interrupt_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_Timer_Interrupt_wrapper",
+	"systems":	[{
+			"systemName":	"design_Timer_Interrupt_wrapper",
+			"systemDesc":	"design_Timer_Interrupt_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_Timer_Interrupt_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"69753a3abc3aeee63e33c9dcfede04d6",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::Saving the mss changes D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-21.11:15:17::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-21.11:15:17::SCWMssOS::Commit changes completed.
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWWriter::formatted JSON is {
+	"platformName":	"design_Timer_Interrupt_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_Timer_Interrupt_wrapper",
+	"platHandOff":	"D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/design_Timer_Interrupt_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_Timer_Interrupt_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_Timer_Interrupt_wrapper",
+	"systems":	[{
+			"systemName":	"design_Timer_Interrupt_wrapper",
+			"systemDesc":	"design_Timer_Interrupt_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_Timer_Interrupt_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"69753a3abc3aeee63e33c9dcfede04d6",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-10-21.11:15:17::SCWPlatform::Started generating the artifacts platform design_Timer_Interrupt_wrapper
+TRACE::2022-10-21.11:15:17::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-21.11:15:17::SCWPlatform::Started generating the artifacts for system configuration design_Timer_Interrupt_wrapper
+LOG::2022-10-21.11:15:17::SCWSystem::Started Processing the domain domain_microblaze_0
+TRACE::2022-10-21.11:15:17::SCWDomain::Generating domain artifcats
+TRACE::2022-10-21.11:15:17::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-21.11:15:17::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::Completed writing the mss file at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp
+TRACE::2022-10-21.11:15:17::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-21.11:15:17::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-21.11:15:17::SCWDomain::Building the domain as part of full build :  domain_microblaze_0
+TRACE::2022-10-21.11:15:17::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-10-21.11:15:17::SCWMssOS::Copying to export directory.
+TRACE::2022-10-21.11:15:17::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-21.11:15:17::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-10-21.11:15:17::SCWSystem::Completed Processing the domain domain_microblaze_0
+LOG::2022-10-21.11:15:17::SCWSystem::Completed Processing the sysconfig design_Timer_Interrupt_wrapper
+LOG::2022-10-21.11:15:17::SCWPlatform::Completed generating the artifacts for system configuration design_Timer_Interrupt_wrapper
+TRACE::2022-10-21.11:15:17::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-21.11:15:17::SCWSystem::Writing the bif file for system config design_Timer_Interrupt_wrapper
+TRACE::2022-10-21.11:15:17::SCWSystem::dir created 
+TRACE::2022-10-21.11:15:17::SCWSystem::Writing the bif 
+TRACE::2022-10-21.11:15:17::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-21.11:15:17::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-21.11:15:17::SCWPlatform::Completed generating the platform
+TRACE::2022-10-21.11:15:17::SCWMssOS::Saving the mss changes D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-21.11:15:17::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-21.11:15:17::SCWMssOS::Commit changes completed.
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:15:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:15:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:15:17::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:15:17::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:15:17::SCWWriter::formatted JSON is {
+	"platformName":	"design_Timer_Interrupt_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_Timer_Interrupt_wrapper",
+	"platHandOff":	"D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/design_Timer_Interrupt_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_Timer_Interrupt_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_Timer_Interrupt_wrapper",
+	"systems":	[{
+			"systemName":	"design_Timer_Interrupt_wrapper",
+			"systemDesc":	"design_Timer_Interrupt_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_Timer_Interrupt_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"69753a3abc3aeee63e33c9dcfede04d6",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-21.11:15:17::SCWPlatform::updated the xpfm file.
+LOG::2022-10-21.11:53:47::SCWPlatform::Started generating the artifacts platform design_Timer_Interrupt_wrapper
+TRACE::2022-10-21.11:53:47::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-21.11:53:47::SCWPlatform::Started generating the artifacts for system configuration design_Timer_Interrupt_wrapper
+LOG::2022-10-21.11:53:47::SCWSystem::Checking the domain domain_microblaze_0
+LOG::2022-10-21.11:53:47::SCWSystem::Not a boot domain 
+LOG::2022-10-21.11:53:47::SCWSystem::Started Processing the domain domain_microblaze_0
+TRACE::2022-10-21.11:53:47::SCWDomain::Generating domain artifcats
+TRACE::2022-10-21.11:53:47::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-21.11:53:47::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-21.11:53:47::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:53:47::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:53:47::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:53:47::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:53:47::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:53:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:53:47::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:53:47::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:53:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:53:47::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:53:47::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:53:47::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:53:47::SCWMssOS::Completed writing the mss file at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp
+TRACE::2022-10-21.11:53:47::SCWMssOS::Mss edits present, copying mssfile into export location D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:53:47::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-21.11:53:47::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-21.11:53:47::SCWDomain::Building the domain as part of full build :  domain_microblaze_0
+TRACE::2022-10-21.11:53:47::SCWMssOS::doing bsp build ... 
+TRACE::2022-10-21.11:53:47::SCWMssOS::System Command Ran  D: & cd  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp & make 
+TRACE::2022-10-21.11:53:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_4/src"
+
+TRACE::2022-10-21.11:53:47::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-10-21.11:53:47::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-10-21.11:53:47::SCWMssOS::-Wextra"
+
+TRACE::2022-10-21.11:53:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_11/src"
+
+TRACE::2022-10-21.11:53:47::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-10-21.11:53:47::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-10-21.11:53:47::SCWMssOS::-Wextra"
+
+TRACE::2022-10-21.11:53:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_6/src"
+
+TRACE::2022-10-21.11:53:47::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-10-21.11:53:47::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-10-21.11:53:47::SCWMssOS::-Wextra"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_11/src"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-10-21.11:53:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-10-21.11:53:48::SCWMssOS:: -Wextra"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_2/src"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-10-21.11:53:48::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-10-21.11:53:48::SCWMssOS::-Wall -Wextra"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_6/src"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-10-21.11:53:48::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-10-21.11:53:48::SCWMssOS::l -Wextra"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_4/src"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-10-21.11:53:48::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-10-21.11:53:48::SCWMssOS::all -Wextra"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_4/src"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-10-21.11:53:48::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-10-21.11:53:48::SCWMssOS::xtra"
+
+TRACE::2022-10-21.11:53:48::SCWMssOS::"Compiling bram"
+
+TRACE::2022-10-21.11:53:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_11/src"
+
+TRACE::2022-10-21.11:53:50::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_11/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-10-21.11:53:50::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-10-21.11:53:50::SCWMssOS::xtra"
+
+TRACE::2022-10-21.11:53:50::SCWMssOS::"Compiling cpu"
+
+TRACE::2022-10-21.11:53:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_6/src"
+
+TRACE::2022-10-21.11:53:50::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-10-21.11:53:50::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-10-21.11:53:50::SCWMssOS::xtra"
+
+TRACE::2022-10-21.11:53:50::SCWMssOS::"Compiling gpio"
+
+TRACE::2022-10-21.11:53:52::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_11/src"
+
+TRACE::2022-10-21.11:53:52::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_11/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-10-21.11:53:52::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-10-21.11:53:52::SCWMssOS::extra"
+
+TRACE::2022-10-21.11:53:52::SCWMssOS::"Compiling intc"
+
+TRACE::2022-10-21.11:53:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_2/src"
+
+TRACE::2022-10-21.11:53:53::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-10-21.11:53:53::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-10-21.11:53:53::SCWMssOS::ll -Wextra"
+
+TRACE::2022-10-21.11:53:54::SCWMssOS::"Compiling standalone";
+
+TRACE::2022-10-21.11:53:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_6/src"
+
+TRACE::2022-10-21.11:53:59::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-10-21.11:53:59::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2022-10-21.11:53:59::SCWMssOS::Wextra"
+
+TRACE::2022-10-21.11:53:59::SCWMssOS::"Compiling tmrctr"
+
+TRACE::2022-10-21.11:54:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_4/src"
+
+TRACE::2022-10-21.11:54:01::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-10-21.11:54:01::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-10-21.11:54:01::SCWMssOS:: -Wextra"
+
+TRACE::2022-10-21.11:54:01::SCWMssOS::"Compiling uartlite"
+
+TRACE::2022-10-21.11:54:02::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-10-21.11:54:02::SCWMssOS::Copying to export directory.
+TRACE::2022-10-21.11:54:03::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-21.11:54:03::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-10-21.11:54:03::SCWSystem::Completed Processing the domain domain_microblaze_0
+LOG::2022-10-21.11:54:03::SCWSystem::Completed Processing the sysconfig design_Timer_Interrupt_wrapper
+LOG::2022-10-21.11:54:03::SCWPlatform::Completed generating the artifacts for system configuration design_Timer_Interrupt_wrapper
+TRACE::2022-10-21.11:54:03::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-21.11:54:03::SCWSystem::Writing the bif file for system config design_Timer_Interrupt_wrapper
+TRACE::2022-10-21.11:54:03::SCWSystem::dir created 
+TRACE::2022-10-21.11:54:03::SCWSystem::Writing the bif 
+TRACE::2022-10-21.11:54:03::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-21.11:54:03::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-21.11:54:03::SCWPlatform::Completed generating the platform
+TRACE::2022-10-21.11:54:03::SCWMssOS::Saving the mss changes D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:54:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-21.11:54:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-21.11:54:03::SCWMssOS::Commit changes completed.
+TRACE::2022-10-21.11:54:03::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:54:03::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:54:03::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:54:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:54:03::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:54:03::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:54:03::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:54:03::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:54:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:54:03::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:54:03::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:54:03::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:54:03::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:54:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:54:03::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:54:03::SCWWriter::formatted JSON is {
+	"platformName":	"design_Timer_Interrupt_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_Timer_Interrupt_wrapper",
+	"platHandOff":	"D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/design_Timer_Interrupt_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_Timer_Interrupt_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_Timer_Interrupt_wrapper",
+	"systems":	[{
+			"systemName":	"design_Timer_Interrupt_wrapper",
+			"systemDesc":	"design_Timer_Interrupt_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_Timer_Interrupt_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"69753a3abc3aeee63e33c9dcfede04d6",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-21.11:54:03::SCWPlatform::updated the xpfm file.
+TRACE::2022-10-21.11:54:03::SCWPlatform::Trying to open the hw design at D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA given D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA absoulate path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform::DSA directory D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw
+TRACE::2022-10-21.11:54:03::SCWPlatform:: Platform Path D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/hw/design_Timer_Interrupt_wrapper.xsa
+TRACE::2022-10-21.11:54:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Trying to set the existing hwdb with name design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Opened existing hwdb design_Timer_Interrupt_wrapper_0
+TRACE::2022-10-21.11:54:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-21.11:54:03::SCWMssOS::Checking the sw design at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2022-10-21.11:54:03::SCWMssOS::DEBUG:  swdes dump  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-10-21.11:54:03::SCWMssOS::Sw design exists and opened at  D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss

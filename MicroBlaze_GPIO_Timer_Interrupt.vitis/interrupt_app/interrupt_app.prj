@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="interrupt_app" location="D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/interrupt_app" platform="D:/FPGA/MicroBlaze_GPIO_Timer_Interrupt/MicroBlaze_GPIO_Timer_Interrupt.vitis/design_Timer_Interrupt_wrapper/export/design_Timer_Interrupt_wrapper/design_Timer_Interrupt_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="interrupt_app_system" sysConfig="design_Timer_Interrupt_wrapper" runtime="cpp" cpu="domain_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="a76511905861f3a5081a2104df2c864b">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1517866983">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.623136369" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="design_Timer_Interrupt_wrapper"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+design_Timer_Interrupt_wrapper
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="design_Timer_Interrupt_wrapper">
+        <sdx:configuration sdx:name="design_Timer_Interrupt_wrapper"
+                           sdx:displayName="design_Timer_Interrupt_wrapper"
+                           sdx:defaultProcessorGroup="domain_microblaze_0"
+                           sdx:runtimes="cpp">
+            <sdx:description>design_Timer_Interrupt_wrapper</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="design_Timer_Interrupt_wrapper/boot/design_Timer_Interrupt_wrapper.bif"
+                            sdx:readme="design_Timer_Interrupt_wrapper/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="domain_microblaze_0"
+                                sdx:displayName="domain_microblaze_0"
+                                sdx:cpuType="microblaze_0"
+                                sdx:cpuInstance="microblaze_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="design_Timer_Interrupt_wrapper/domain_microblaze_0/bsplib/lib"
+                        sdx:bspIncludePaths="design_Timer_Interrupt_wrapper/domain_microblaze_0/bspinclude/include"
+                        sdx:bspConfig="design_Timer_Interrupt_wrapper/domain_microblaze_0/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>
